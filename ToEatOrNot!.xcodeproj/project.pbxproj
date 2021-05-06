@@ -7,23 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		81B0C5A32644A84F006AB209 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B0C5A22644A84F006AB209 /* AppDelegate.swift */; };
-		81B0C5A52644A84F006AB209 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B0C5A42644A84F006AB209 /* SceneDelegate.swift */; };
-		81B0C5A72644A84F006AB209 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B0C5A62644A84F006AB209 /* ViewController.swift */; };
-		81B0C5AA2644A84F006AB209 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81B0C5A82644A84F006AB209 /* Main.storyboard */; };
-		81B0C5AC2644A853006AB209 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81B0C5AB2644A853006AB209 /* Assets.xcassets */; };
-		81B0C5AF2644A853006AB209 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81B0C5AD2644A853006AB209 /* LaunchScreen.storyboard */; };
+		81B0C5CD2644A88C006AB209 /* FoodTextClassifier 1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 81B0C5BC2644A88C006AB209 /* FoodTextClassifier 1.mlmodel */; };
+		81B0C5CE2644A88C006AB209 /* FoodImageClassifier 1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 81B0C5BD2644A88C006AB209 /* FoodImageClassifier 1.mlmodel */; };
+		81B0C5CF2644A88C006AB209 /* ImageClassificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B0C5BE2644A88C006AB209 /* ImageClassificationService.swift */; };
+		81B0C5D02644A88C006AB209 /* Prediction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B0C5BF2644A88C006AB209 /* Prediction.swift */; };
+		81B0C5D12644A88C006AB209 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B0C5C12644A88C006AB209 /* ImageViewController.swift */; };
+		81B0C5D22644A88C006AB209 /* DataTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B0C5C22644A88C006AB209 /* DataTableViewController.swift */; };
+		81B0C5D32644A88C006AB209 /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B0C5C32644A88C006AB209 /* TextViewController.swift */; };
+		81B0C5D42644A88C006AB209 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81B0C5C42644A88C006AB209 /* Main.storyboard */; };
+		81B0C5D52644A88C006AB209 /* CGImagePropertyOrientation+UIImageOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B0C5C72644A88C006AB209 /* CGImagePropertyOrientation+UIImageOrientation.swift */; };
+		81B0C5D62644A88C006AB209 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81B0C5C92644A88C006AB209 /* Assets.xcassets */; };
+		81B0C5D72644A88C006AB209 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81B0C5CA2644A88C006AB209 /* LaunchScreen.storyboard */; };
+		81B0C5D82644A88C006AB209 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B0C5CC2644A88C006AB209 /* AppDelegate.swift */; };
+		81B0C5DB2644A8AC006AB209 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 81B0C5DA2644A8AC006AB209 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		81B0C59F2644A84F006AB209 /* ToEatOrNot!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ToEatOrNot!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		81B0C5A22644A84F006AB209 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		81B0C5A42644A84F006AB209 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		81B0C5A62644A84F006AB209 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		81B0C5A92644A84F006AB209 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		81B0C5AB2644A853006AB209 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		81B0C5AE2644A853006AB209 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		81B0C5B02644A853006AB209 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81B0C5BC2644A88C006AB209 /* FoodTextClassifier 1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "FoodTextClassifier 1.mlmodel"; sourceTree = "<group>"; };
+		81B0C5BD2644A88C006AB209 /* FoodImageClassifier 1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "FoodImageClassifier 1.mlmodel"; sourceTree = "<group>"; };
+		81B0C5BE2644A88C006AB209 /* ImageClassificationService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageClassificationService.swift; sourceTree = "<group>"; };
+		81B0C5BF2644A88C006AB209 /* Prediction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Prediction.swift; sourceTree = "<group>"; };
+		81B0C5C12644A88C006AB209 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		81B0C5C22644A88C006AB209 /* DataTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataTableViewController.swift; sourceTree = "<group>"; };
+		81B0C5C32644A88C006AB209 /* TextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewController.swift; sourceTree = "<group>"; };
+		81B0C5C52644A88C006AB209 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		81B0C5C72644A88C006AB209 /* CGImagePropertyOrientation+UIImageOrientation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGImagePropertyOrientation+UIImageOrientation.swift"; sourceTree = "<group>"; };
+		81B0C5C92644A88C006AB209 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		81B0C5CB2644A88C006AB209 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		81B0C5CC2644A88C006AB209 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		81B0C5DA2644A8AC006AB209 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81B0C5E02644A974006AB209 /* ToEatOrNot!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ToEatOrNot!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,31 +53,77 @@
 		81B0C5962644A84F006AB209 = {
 			isa = PBXGroup;
 			children = (
-				81B0C5A12644A84F006AB209 /* ToEatOrNot! */,
-				81B0C5A02644A84F006AB209 /* Products */,
+				81B0C5E02644A974006AB209 /* ToEatOrNot!.app */,
+				81B0C5B82644A88C006AB209 /* Main storyboard */,
 			);
 			sourceTree = "<group>";
 		};
-		81B0C5A02644A84F006AB209 /* Products */ = {
+		81B0C5B82644A88C006AB209 /* Main storyboard */ = {
 			isa = PBXGroup;
 			children = (
-				81B0C59F2644A84F006AB209 /* ToEatOrNot!.app */,
+				81B0C5DA2644A8AC006AB209 /* Info.plist */,
+				81B0C5B92644A88C006AB209 /* Classification */,
+				81B0C5C02644A88C006AB209 /* View Controllers */,
+				81B0C5C42644A88C006AB209 /* Main.storyboard */,
+				81B0C5C62644A88C006AB209 /* Extensions */,
+				81B0C5C82644A88C006AB209 /* Supporting files */,
+				81B0C5CC2644A88C006AB209 /* AppDelegate.swift */,
 			);
-			name = Products;
+			path = "Main storyboard";
 			sourceTree = "<group>";
 		};
-		81B0C5A12644A84F006AB209 /* ToEatOrNot! */ = {
+		81B0C5B92644A88C006AB209 /* Classification */ = {
 			isa = PBXGroup;
 			children = (
-				81B0C5A22644A84F006AB209 /* AppDelegate.swift */,
-				81B0C5A42644A84F006AB209 /* SceneDelegate.swift */,
-				81B0C5A62644A84F006AB209 /* ViewController.swift */,
-				81B0C5A82644A84F006AB209 /* Main.storyboard */,
-				81B0C5AB2644A853006AB209 /* Assets.xcassets */,
-				81B0C5AD2644A853006AB209 /* LaunchScreen.storyboard */,
-				81B0C5B02644A853006AB209 /* Info.plist */,
+				81B0C5BA2644A88C006AB209 /* Models */,
+				81B0C5BE2644A88C006AB209 /* ImageClassificationService.swift */,
+				81B0C5BF2644A88C006AB209 /* Prediction.swift */,
 			);
-			path = "ToEatOrNot!";
+			path = Classification;
+			sourceTree = "<group>";
+		};
+		81B0C5BA2644A88C006AB209 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				81B0C5BB2644A88C006AB209 /* FoodTextClassifier.mlmodel */,
+				81B0C5BC2644A88C006AB209 /* FoodTextClassifier 1.mlmodel */,
+				81B0C5BD2644A88C006AB209 /* FoodImageClassifier 1.mlmodel */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		81B0C5BB2644A88C006AB209 /* FoodTextClassifier.mlmodel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FoodTextClassifier.mlmodel;
+			sourceTree = "<group>";
+		};
+		81B0C5C02644A88C006AB209 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				81B0C5C12644A88C006AB209 /* ImageViewController.swift */,
+				81B0C5C22644A88C006AB209 /* DataTableViewController.swift */,
+				81B0C5C32644A88C006AB209 /* TextViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		81B0C5C62644A88C006AB209 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				81B0C5C72644A88C006AB209 /* CGImagePropertyOrientation+UIImageOrientation.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		81B0C5C82644A88C006AB209 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				81B0C5C92644A88C006AB209 /* Assets.xcassets */,
+				81B0C5CA2644A88C006AB209 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,7 +143,7 @@
 			);
 			name = "ToEatOrNot!";
 			productName = "ToEatOrNot!";
-			productReference = 81B0C59F2644A84F006AB209 /* ToEatOrNot!.app */;
+			productReference = 81B0C5E02644A974006AB209 /* ToEatOrNot!.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -110,7 +169,7 @@
 				Base,
 			);
 			mainGroup = 81B0C5962644A84F006AB209;
-			productRefGroup = 81B0C5A02644A84F006AB209 /* Products */;
+			productRefGroup = 81B0C5962644A84F006AB209;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -124,9 +183,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81B0C5AF2644A853006AB209 /* LaunchScreen.storyboard in Resources */,
-				81B0C5AC2644A853006AB209 /* Assets.xcassets in Resources */,
-				81B0C5AA2644A84F006AB209 /* Main.storyboard in Resources */,
+				81B0C5DB2644A8AC006AB209 /* Info.plist in Resources */,
+				81B0C5D72644A88C006AB209 /* LaunchScreen.storyboard in Resources */,
+				81B0C5D62644A88C006AB209 /* Assets.xcassets in Resources */,
+				81B0C5D42644A88C006AB209 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,27 +197,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81B0C5A72644A84F006AB209 /* ViewController.swift in Sources */,
-				81B0C5A32644A84F006AB209 /* AppDelegate.swift in Sources */,
-				81B0C5A52644A84F006AB209 /* SceneDelegate.swift in Sources */,
+				81B0C5D02644A88C006AB209 /* Prediction.swift in Sources */,
+				81B0C5D22644A88C006AB209 /* DataTableViewController.swift in Sources */,
+				81B0C5CE2644A88C006AB209 /* FoodImageClassifier 1.mlmodel in Sources */,
+				81B0C5D82644A88C006AB209 /* AppDelegate.swift in Sources */,
+				81B0C5D12644A88C006AB209 /* ImageViewController.swift in Sources */,
+				81B0C5D52644A88C006AB209 /* CGImagePropertyOrientation+UIImageOrientation.swift in Sources */,
+				81B0C5CD2644A88C006AB209 /* FoodTextClassifier 1.mlmodel in Sources */,
+				81B0C5D32644A88C006AB209 /* TextViewController.swift in Sources */,
+				81B0C5CF2644A88C006AB209 /* ImageClassificationService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		81B0C5A82644A84F006AB209 /* Main.storyboard */ = {
+		81B0C5C42644A88C006AB209 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				81B0C5A92644A84F006AB209 /* Base */,
+				81B0C5C52644A88C006AB209 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		81B0C5AD2644A853006AB209 /* LaunchScreen.storyboard */ = {
+		81B0C5CA2644A88C006AB209 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				81B0C5AE2644A853006AB209 /* Base */,
+				81B0C5CB2644A88C006AB209 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -288,7 +354,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V92NPBQLYK;
-				INFOPLIST_FILE = "ToEatOrNot!/Info.plist";
+				INFOPLIST_FILE = "/Users/riddhipatel/Desktop/ToEatOrNot!/Main storyboard/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +373,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V92NPBQLYK;
-				INFOPLIST_FILE = "ToEatOrNot!/Info.plist";
+				INFOPLIST_FILE = "/Users/riddhipatel/Desktop/ToEatOrNot!/Main storyboard/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
